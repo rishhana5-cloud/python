@@ -19,7 +19,7 @@
 
             #adding items------->
 
-# a=["banana","apple","orange","mango"]         #last add any variable use append
+# a=["banana","apple","orange","mango"]         #last add any element use append
 # a.append("cherry")
 # print(a)
 
@@ -52,8 +52,61 @@
 # print(a)
 
 
-a=[]
-for i in range(1,10) :
-   a.append(i)
-print(a)
+# a=[]
+# for i in range(1,10) :
+#    a.append(i)
+# print(a)
+
+# a=[i for i in range (1,11)]
+# print(a)
+
+# a=[i**2 for i in range (1,11)]
+# print(a)
+
+# a=[i**2 for i in range (1,11) if (i%2==0)]
+# print(a)
+
+# a=[1,2,3,4,1]
+# print(a.index(4))
+
+# a=[1,2,3,4,1]
+# print(a.count(1))
+
+# a=[1,2,3,4,1]
+# b=a.reverse()
+# print(a)
+
+# a=[1,3,2,4,]
+# a.sort(reverse=True)
+# print(a)
+
+# a=[1,2,3,4,1]
+# b=a.copy()
+# print(a)
+
+# a=[1,2,3,4,1]               no change og list only change sorted list
+# b=sorted(a)
+# print(b)
+
+
+# a=[1,2,3,4,1]
+# b=a[:]
+# print(a)
+
+# a=[1,2,3,4]
+# b=[5,6,7,8]
+# c=a+b
+# print(c)
+
+# a=["orange","apple"]
+# b=["banana","pappaya"]
+# b=a.extend(a)  
+# a.extend(b)
+# print(a)
+
+
+
+
+
+
 
