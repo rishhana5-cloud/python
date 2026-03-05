@@ -38,18 +38,24 @@
 
 # f=(1,2)
 # g=(3,4)
-# print(f+g)
+# h=f+g
+# print(h)
 
 # cvrt=("hello")  
 # stng=tuple(cvrt)  
 # cvrt=tuple(stng)                       
 # print(cvrt)
 
-# a=(1,2,3,4)
-# b=list(a)
-# a=list(b)           #pendinggggggggg
+a=(1,2,3,4)
+b=list(a)
+a=list(b)    
+                                        # """pending"""
 
-# print(a)
+print(a )
+
+
+
+
 
 
 # rplc=(10,20,30,40)

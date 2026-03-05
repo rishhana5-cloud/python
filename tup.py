@@ -15,11 +15,11 @@
 # tuple=("riff")
 # print(tuple)
 
-# tuplee=("orange","apple","banana")
-# new_tuple= list(tuplee)
-# new_tuple[1]="pappaya"
-# tuplee= tuple(new_tuple)
-# print(tuplee)
+tuplee=("orange","apple","banana")
+new_tuple= list(tuplee)
+new_tuple[1]="pappaya"
+tuplee= tuple(new_tuple)
+print(type(new_tuple))
 
              #unpacking tuple----------->
 

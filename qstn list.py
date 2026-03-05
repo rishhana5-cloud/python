@@ -59,8 +59,8 @@
 # print(rmv)
 
 # cpy=[4,5,6]
-# cpy.copy()
-# print(cpy)
+# copy_value=cpy.copy()
+# print(copy_value)
 
 
 # nest=[1,2,3]
