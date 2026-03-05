@@ -46,38 +46,32 @@
 # cvrt=tuple(stng)                       
 # print(cvrt)
 
-a=(1,2,3,4)
-b=list(a)
-a=list(b)    
-                                        # """pending"""
-
-print(a )
-
-
-
-
+# a=(1,2,3,4)
+# b=list(a)
+# a=list(b)                              
+# print(a[::3])
 
 
 # rplc=(10,20,30,40)
 # lst=list(rplc)
-# rplc=list(lst)
-# rplc[2:3]=[99]
-# print(rplc)
+# lst[2:3]=[99]
+# rplc=tuple(lst)
+# print(lst)
 
 # exct=(1,2,3)
 # (a,b,c)=(exct)
-
 # print(a)
 # print(b)
 # print(c)
 
-#//////////////
-
+# nst=(1,2,3)
+# nst1=(nst,)
+# print(nst1)
 
 # a=("a","b")
-# b=["c","d"]
-
-# print(a+ tuple(b))
+# b=["c","d"]                         #####################3
+# b=tuple(a)
+# print(type(b))
 
 # check=(1,2,3)
 # if check==check[::-1]:
