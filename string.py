@@ -20,7 +20,12 @@
 
 # a="hello"
 # b="rishana"
-# print(a+ b)
+# print(a + b)
+
+# a="hello"
+# b="rishana"
+# c=a+" "+b
+# print(c)
 
 
 # word=["are","you","okey"]

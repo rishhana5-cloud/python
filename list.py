@@ -1,6 +1,6 @@
      #creating list--------------->
 
-# a=["hello",12,1.4,"by"]
+# a=["hello",12,1.4,"by","by","by"]
 # print(a)
 
 # a=["banana","apple","orange"]
