@@ -1,14 +1,14 @@
 
-a=float(input("enter a number"))
-if a>0:
-    print("positive")
+# a=float(input("enter a number"))
+# if a>0:
+#     print("positive")
 
-elif a==0:
-    print("zero")
-elif a==-1.1:
-    print("float")
-else:
-    print("negative")
+# elif a==0:
+#     print("zero")
+# elif a==-1.1:
+#     print("float")
+# else:
+#     print("negative")
 
 
 
@@ -53,18 +53,35 @@ else:
 # d=1
 # while d<10 :
 #     print(d)
-#     d+=1 #--------------------> without this infinity
+#     d+=1 #--------------------> never miss  this infinity
 
 
+                   #pass,continue,break
+
+# a=0
+# if a>5:
+#     pass
+# else:                        # will deal with this later
+#     print("zero")                
 
 
+# for i in range(1,6):
+#     if i==3:
+#         continue             #skip this one and move on
+#     print(i)
+    
 
+# for i in range(1,6):
+#     if i==4:                 #stop everything right now
+#         break
+#     print(i)
 
+ 
+   #nested for loop------------->
 
-
-
-
-
+# for i in range (5):
+#     for j in range(3):
+#         print(i,j)
 
 
 
