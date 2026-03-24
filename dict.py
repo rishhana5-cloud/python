@@ -8,7 +8,7 @@
 # print(a["name"])
 
 # b=dict( name="rish",
-#        age=22,
+#        age=22,                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
 #        state="kerala")
 
 # b["name"]="riff"
@@ -83,10 +83,10 @@
 # print(dict["person2"] ["name"])
 
 
-s={
-    "name":"jish",
-    "age":33
-}
+# s={
+#     "name":"jish",
+#     "age":33
+# }
 # print(s.keys())
 # print(s.values())
 # print(s.items())
@@ -106,8 +106,8 @@ s={
 
 
 # my={
-#     "name":"sana",
-#     "age":44,
+#     "name":"sana",                              #if key exist return existing value(no change)
+#     "age":44,                                   #key does not exist- adds key with default value
 #     "place":"narukara"
 # }
 
