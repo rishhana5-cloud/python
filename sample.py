@@ -81,7 +81,13 @@
 # response=requests.get('https://www.google.com')
 # print(response.status_code)
 
+       #matplotlib---->
 
+# import matplotlib.pyplot as plt 
+# x = [1, 2, 3, 4] 
+# y = [10, 20, 25, 40] 
+# plt.plot(x, y) 
+# plt.show() 
 
 
 
