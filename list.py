@@ -84,14 +84,14 @@
 # b=a.copy()
 # print(a)
 
-# a=[1,2,3,4,1]               no change og list only change sorted list
+# a=[1,2,3,4,1,3]               #no change og list only change sorted list
 # b=sorted(a)
 # print(b)
 
 
 # a=[1,2,3,4,1]
 # b=a[:]
-# print(a)
+# print(b)
 
 # a=[1,2,3,4]
 # b=[5,6,7,8]

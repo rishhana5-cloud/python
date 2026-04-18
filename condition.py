@@ -5,7 +5,7 @@
 
 # elif a==0:
 #     print("zero")
-# elif a==-1.1:
+# elif a<=-1.1:
 #     print("float")
 # else:
 #     print("negative")
