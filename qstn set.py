@@ -81,7 +81,7 @@
 # lst=list(st)
 # print(lst)
 
-# v= {1, 2, 3, 4, 5}
-# v.remove(2)
-# v.discard(4)
-# print(v)
+v= {1, 2, 3, 4, 5}
+v.remove(2)
+v.discard(4)
+print(v)

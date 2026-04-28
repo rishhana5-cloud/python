@@ -49,9 +49,9 @@
 #  position= file.tell()
 #  print(position)
 
-with open("sample.txt","r")as abc:
-    abc.seek(4)
-    print(abc.read())
+# with open("sample.txt","r")as abc:
+#     abc.seek(4)
+#     print(abc.read())
 
  
  
