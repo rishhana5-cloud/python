@@ -52,6 +52,7 @@
 # print(a)
 
 
+         #List Comprehensions ----------------->
 # a=[]
 # for i in range(1,10) :
 #    a.append(i)
@@ -65,6 +66,9 @@
 
 # a=[i**2 for i in range (1,11) if (i%2==0)]
 # print(a)
+
+
+          #list method------------------>
 
 # a=[1,2,3,4,1]
 # print(a.index(4))
