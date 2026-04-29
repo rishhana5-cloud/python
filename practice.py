@@ -138,3 +138,50 @@
 # while i>=1:             #reverse loop
 #     print(i)
 #     i-=1
+
+
+           #list comprehension----------->
+
+#1.creat a list of number from 1 to 10 using list comprehension
+# num= [i for i in range(1,11)]
+# print(num)
+
+#2.create a list of square of numbers from 1 to 10
+# square=[i**2 for i in range(1,11)]
+# print(square) 
+
+#3.create list of even numbers between 1 and 20
+# even=[i for i in range (1,21)if (i%2==0)]
+# print(even)
+
+#4.convert this list in to uppercase:
+# a=["apple","banana","mango"]
+# convert=[i.upper() for i in a]
+# print(convert)
+
+        #intermediate level
+"""5. from a list[3,7,12,18,25],
+create a list of numbers greater than 10"""
+# lst=[3,7,12,18,25]
+# greater=[i for i in lst if (i>10)]
+# print(greater)
+
+""" 6. create a list of lengths of each word:
+"python is very easy"."""
+# word="python is very easy"
+# leng=[len(word)]
+# print(leng)
+
+# """7.convert celsius to fahrenheit:
+# [0,10,20,30]"""
+
+# celsius=[0,10,20,30]
+# cel=[(i*9/5)+32 for i in celsius]
+# print(cel)
+
+
+"""extract only vowels from
+"list comprehension"."""
+extract="list comprehension"
+vowels=[i for i in extract]
+

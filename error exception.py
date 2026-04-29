@@ -40,18 +40,20 @@
 
 
 
-           #Exception Handling with try-except-----
+           #Exception Handling with "try-except"----->
 
 # try:
-#      a=10/2
+#     a=10/2
+#     print(a)
 # except ZeroDivisionError:
 #     print("you can't devided by zero")
  
         #or
 # try:
-#     a=10/0
-# except Exception as ption:
-#     print(ption)
+#     b=10/0
+#     print(b)
+# except Exception as e:
+#     print(e)
 
 # try:
 #     file=open("style.txt","r")
@@ -59,14 +61,35 @@
 #     print("file not found")
 
 
+           # "else and finally" in Exception Handling----------> 
 
+# try:
+    
+#   num=int(input("enter a number"))
+#   result=10/num
+# except ZeroDivisionError:
+#   print("division by zero is not allowed")
+# else:
+#   print(f"result is{result}")
+# finally:
+#   print("this will always be printed")
 
+               #Raising Exceptions ---------->
+# x=5
+# if x>0:
+#     raise TypeError("positive numbers are not allowed")
 
+              #Custom Exceptions --------------->
 
-
-
-
-
+# class rishanaError(Exception):
+#     pass
+# def custom(num):
+#     if num<0:
+#       raise rishanaError("negative numbers are not allowed")
+# try:
+#  custom(-10)
+# except rishanaError as e:
+#    print(e)
 
 
 
