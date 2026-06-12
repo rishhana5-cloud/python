@@ -31,8 +31,8 @@
 
                 #appending data-------------->
 
-# file=open("sample.txt","a")
-# content=file.write("appended text\n")      #add new content without overwriting its existing content
+# file=open("sample.txt","a+")
+# content=file.write("rishana\n")      #add new content without overwriting its existing content
 # file.close()
 
 
@@ -50,10 +50,10 @@
 #  print(position)
 
 # with open("sample.txt","r")as abc:
-#     abc.seek(4)
+#     abc.seek(2)
 #     print(abc.read())
 
- 
+
  
 
 

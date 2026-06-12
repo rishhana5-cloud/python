@@ -74,3 +74,14 @@
 # a="hello world"
 # b=a.replace("world","everyone")
 # print(b)
+
+# playlist=[1,1,2,2,4]
+# counts=[]
+# for i in set(playlist):
+#  counts.append(playlist.count(i))
+# max_value=max(counts)
+# singers=counts.count(max_value)
+# print(singers)
+
+
+

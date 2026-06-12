@@ -26,14 +26,33 @@
 
 # import os
 # print(os.name)
+# print(os.getcwd())
+
+
+# import random
+# print(random.randint(1,10))
+           #same
+# for i in range(5):
+#     print(random.randint(1,10))
+
+
+# import statistics
+# data=[1,2,3,4,5]
+# print(statistics.mean(data))
+
 
              #popolar standard  python libraries
 
 
-       #math 
+       #math--------------> 
 
 # import math
 # print(math.sqrt(25))
+
+# print(math.pow(2,3))
+        #or
+# result=2**3
+# print(result)
 
        #datetime: date and time function
 
@@ -52,6 +71,7 @@
                  #sys: system specific parameters and function----->
 # import sys
 # print(sys.version)
+# print(sys.argv)       
 
 
                   #json: working with JSON data
@@ -66,8 +86,8 @@
      #numpy:numerical computation - working with arrays and matrices
 
 # import numpy as np
-# arr=np.array([1,2,3,4,5])
-# print(arr)
+# arr=np.array([1,2,3,4,5])      #numerical calculations
+# print(arr*2)
 
 
                   #pandas: data manipulation

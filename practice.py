@@ -166,8 +166,8 @@ create a list of numbers greater than 10"""
 # greater=[i for i in lst if (i>10)]
 # print(greater)
 
-""" 6. create a list of lengths of each word:
-"python is very easy"."""
+# """ 6. create a list of lengths of each word:
+# "python is very easy"."""
 # word="python is very easy"
 # leng=[len(word)]
 # print(leng)
@@ -180,8 +180,50 @@ create a list of numbers greater than 10"""
 # print(cel)
 
 
-"""extract only vowels from
-"list comprehension"."""
-extract="list comprehension"
-vowels=[i for i in extract]
+# """extract only vowels from
+# "list comprehension"."""
+# extract="list comprehension"
+# vowels=[i for i in extract]
 
+# n=0
+# for i in range()
+
+# x = int(input())
+# y = int(input())
+# z = int(input())
+# n = int(input())
+
+
+# def print_full_name(first, last):
+#  v=f"Hello {first} {last}! You just delved into python"             #hackerr-------->>>>>>>>>>>>>>
+#  print(v)
+# print_full_name("rish","rif")
+
+# def solve(s):
+
+
+#  print(a)
+# solve('chris alan')
+
+# arr =[161,182,161,154, 176,170,167,171,170,174]
+# def average(array):
+#  array=set(array)
+#  average_a=sum(array)/len(array)
+#  return average_a
+# print(average(arr))
+
+
+# a={2,4,5,9}  
+# b={2,4,11,12}
+# result=a^b
+# result=list(result)
+# result.sort()
+# for i in result:
+#  print(i)
+
+n=int(input())
+a=set()
+for i in range(n):
+    i=input("")
+    a.add(i)  
+print(len(a))
